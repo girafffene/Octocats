@@ -1,0 +1,101 @@
+.octodex {
+  display: flex;
+  flex-direction: row;
+}
+
+.octocat {
+  position: relative;
+  margin: 10px;
+}
+
+.octocat > a > img {
+  width: 500px;
+  border-style: solid;
+  border-color: silver;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.authors > li > a > img {
+  width: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.image-number {
+  color: lightslategray;
+  font-weight: bold;
+  align-content: flex-start;
+}
+.image-number::before {
+  content: "#";
+  color: lightslategray;
+  font-weight: bold;
+}
+
+.image-caption {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: lightslategray;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.image-footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+
+.octocat::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 9px 0 9px;
+  border-color: #c0c0c0 transparent transparent transparent;
+  position: absolute;
+  top: 501px;
+  right: 5px;
+}
+
+span {
+  padding: 3px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
